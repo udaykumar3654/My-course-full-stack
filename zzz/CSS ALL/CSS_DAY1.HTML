@@ -1,0 +1,196 @@
+<!-- css = cascading style sheet. Selector, properties and values are the core concepts used to style Html elements on a web page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+    
+<!-- Selector = Selector are the parttern used to target HTML element that you want to style.  -->
+
+<!-- types of Selector  -->
+
+<!-- 1) type Selector :- target all elements of a specific type(html tag) -->
+
+<!-- <div>
+    <h1>my 1st calss about css</h1>
+    <p>hello</p>
+    <li>apple</li>
+    <p>bye</p>
+    <a href="afghjskd">myfacebook</a>
+    <p>welcome</p>
+    <p>sorry</p>
+    <h3>end</h3>
+</div> -->
+
+<!-- 2) class Selector = target a specfic elements with class attributes.  -->
+
+
+<!-- <div>
+    <h1 >my 1st calss about css</h1>
+    <p class="btn">hello</p>
+    <li>apple</li>
+    <p>bye</p>
+    <a href="afghjskd">myfacebook</a>
+    <p>welcome</p>
+    <p>sorry</p>
+    <h3 class="btn">end</h3>
+    <button class="btn">summit</button>
+</div> -->
+
+<!-- 3) id selector = target a specfic elements with unique id attributes. -->
+
+<!-- 
+inline = inline is used to style directly to individual using style attribute. -->
+<!-- <div>
+    <h1 id="h1" style=" text-align: center; color: red; background: green;">my 1st calss about css
+        <p id="p1" class="btn">hello</p>
+    </h1>
+    <p id="p1" class="btn">hello</p>
+    <li>apple</li>
+    <p id="p2">bye</p>
+    <a href="afghjskd">myfacebook</a>
+    <p id="p3">welcome</p>
+    <p id="p4">sorry</p>
+    <h3 class="btn">end</h3>
+    <label for="text">username</label>
+    <input type="text" id="text" name="text">
+    <button class="btn" style="cursor: pointer; color: blueviolet;">summit</button>
+</div>
+<p>is for cheking</p> -->
+
+<div>
+    <h1 id="h1">my 1st calss about css
+        <p id="p1" class="btn">hello</p>
+    </h1>
+    <p id="p1" class="btn">hello</p>
+    <li>apple</li>
+    <p id="p2">bye</p>
+    <a href="afghjskd">myfacebook</a>
+    <p id="p3">welcome</p>
+    <p id="p4">sorry</p>
+    <h3 class="btn">end</h3>
+    <label for="text">username</label>
+    <input type="text" id="text" name="text">
+    <button class="btn">summit</button>
+</div>
+<p>is for cheking</p>
+
+
+<!-- internal css -->
+<style>
+    /* type selector  */
+
+    /* h1{
+        color: blueviolet;
+        background:lightblue;
+    }
+    p{
+        color: red;
+    }
+
+    a{
+        background: pink;
+    } */
+     
+
+
+    /* type class selector  */
+
+    /* .btn{
+        color: blue;
+        background: red;
+    } */
+
+    
+
+/* id selector  */
+
+/* #h1{
+    text-align: center;
+    color: black;
+    background: red;
+}
+
+#p4{
+    font-size: 50px;
+    margin-left: 100px;
+    border: 10px solid red;
+} */
+
+
+
+ /* univwersal selector = targets all elements on the web page. */
+
+ /* *{
+    background: #a27373;
+    margin: 100px;
+ } */
+
+
+
+  /* attribute selector = targe elements based on the presence or values of 
+  an attributes. */
+/* 
+  input[type="text"] {
+    border: 1px solid blue;
+    color: blue;
+  } */
+
+
+
+/* 
+ descendant selector = target elements that are descendant 
+ children, grandchildren of a special elements. */
+    /* div h1,p {
+        color: red;
+    }
+
+      is the check  
+
+    div p {
+        color: red;
+    }
+    */
+
+
+ /* child selector =  target the direct children of specific element. */
+/* 
+ div{
+    background: #7d4848;
+ } */
+
+ /* h1 > p {
+    color: red;
+ } */
+
+
+ 
+/* Pseudo class selector = target the elements in a specific state (like when 
+a user want hover over any element). */
+
+/* h1:hover{
+    color: red;
+    background: yellow;
+    cursor: pointer;
+    text-align: center;
+} */
+
+
+/* Pseudo element selector = targets a part of an element like is first or letter any element. */
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+</style>
+
+
+</body>
+</html>

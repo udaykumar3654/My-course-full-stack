@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 73, 73);
+ }
+
+.header{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    }
+
+header h1{
+padding: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#stop{
+    background-color: red;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}
+
+#start{
+    background-color: rgb(71, 208, 71);
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}
+
+#reset{
+    background-color: rgb(14, 25, 233);
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}

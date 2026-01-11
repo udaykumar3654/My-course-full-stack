@@ -1,0 +1,40 @@
+h1{
+    background-color: red;
+    /* COLUMN BLOCKS = dispaly: inline-block; */
+    /* display: block; */
+
+    /* row blocks = display: inline-block; */
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.box1{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    display: inline;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.container{
+    /* flex is compulsory to justify and align */
+    display: flex;   
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    height: 100vh;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}

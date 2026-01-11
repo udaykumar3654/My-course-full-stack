@@ -1,0 +1,34 @@
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+button{
+    height: 20px;
+    width: 100px;
+    background-color: chartreuse;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: translate(500px);
+    transition-duration: 1s;
+    /* default same speed */
+    /* transition-timing-function: linear; */
+
+    /* slow fast slow */
+    /* transition-timing-function: ease; */
+
+    /* slow fast */
+    /* transition-timing-function: ease-in; */
+
+    /* fast slow */
+    /* transition-timing-function: ease-out; */
+
+    /* slow fast slow */
+    transition-timing-function: ease-in-out;
+    /* transition-delay: 3s; */
+
+}

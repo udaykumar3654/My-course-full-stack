@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: yellow;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+    color: white;
+}
+
+.box{
+    height: 200px;
+    width:200px;
+    background-color: aqua;
+    margin: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fade{
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+
+@keyframes fadeInOut{
+    0%, 100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    /* 100%{
+        opacity: 0;
+    } */
+}
+
+.slide{
+    /* alternate le reverse ni aauxa */
+    animation: sliderRight 3s linear infinite alternate;
+}
+@keyframes sliderRight{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        background-color: #fff;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: burlywood;
+    }
+    100%{
+      
+        transform: translateX(500px);
+    }
+
+    /* translate Y le chai horizontal hunxa */
+}
+
+.bounce{
+    animation: bounce 3s linear infinite;
+}
+
+/* @keyframes bounce{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+      
+        transform: translateY(-70px);
+    }
+
+} */
+
+@keyframes bounce{
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(200px, -80px);
+    }
+    50%{
+        transform: translate(300px, 0);
+    }
+    75%{
+        transform: translate(500px, -80px);
+    }
+    100%{
+        transform: translate(700px, -2);
+    }
+}
+
+.rotate{
+    animation: rotate 3s ease-in infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.zoom{
+    animation: zoomInOut 3s ease-in infinite ;
+}
+
+@keyframes zoomInOut {
+    0%,100%{
+    transform: scale(0.5);
+        }
+    50%{
+        transform: scale(1);
+    }
+}
+
+.flip{
+    animation: flip 3s linear infinite;
+}
+
+@keyframes flip{
+    0%{
+        transform : rotateY(0);
+}
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+/* bg color chai mathi slide mai bhaisake xa */
+
+.skew{
+    animation: skew 3s ease infinite alternate;
+}
+
+@keyframes skew{
+    0%{
+        transform: skew(0,0);
+}
+    100%{
+        transform: skew(25deg, 40deg) ;
+    }
+}
+
+.four-direction{
+    animation: fourDir 3s linear infinite alternate;
+}
+
+@keyframes fourDir{
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(500px,0);
+    }
+    50%{
+        transform: translate(500px,500px);
+    }
+    75%{
+        transform: translate(0,500px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}

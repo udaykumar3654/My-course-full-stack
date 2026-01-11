@@ -1,0 +1,24 @@
+.box{
+    height: 500px;
+    width: 500px;
+    /* background: pink; */
+    margin: 50px;
+
+/* position offset use with position = top,bottom,left,right */
+    top: 500px;
+    position: relative;
+}
+
+.demobox{
+    height: 30%;
+    width: 50%;
+    background: yellow;
+    padding: 20px;
+    /* padding: 30px 10px; top_bottom ,right_left */
+    /* padding : 30px 10px 20px; top , right-left , bottom */
+    /* padding: 30px 10px 20px 40px; top , right , bottom , left */
+    border: 2px solid black;
+    /* margin: 30px; */
+}
+
+

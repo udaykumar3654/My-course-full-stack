@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.linear{
+    /* background: yellow; */
+    height: 200px;
+    /* background: repeating-linear-gradient(to right, red 15px, blue 25px, pink 12px); */
+    background: linear-gradient(45deg, green, red, blue);
+}
+
+.radial{
+    /* background: rgb(174, 43, 65); */
+    height: 300px;
+    /* background: repeating-radial-gradient(circle, red 12px, yellow 15px, green 20px, blue 25px); */
+    background: radial-gradient(circle, green, red, blue);
+}
+
+.conic{
+    /* background: orange; */
+    height: 300px;
+    /* background: repeating-conic-gradient(from 360deg, red 15deg, yellow 25deg, green 35deg, blue 45deg); */
+    background: conic-gradient(from 360deg, red, yellow, green, blue, red);
+}

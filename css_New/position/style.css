@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(227, 58, 58);
+}
+
+.box{
+    height: 150px;
+    width: 500px;
+    background-color: aqua;
+    margin: 30px;
+    
+}
+.static{
+    background-color: #14ed2a;
+        /* aafno thau xod daina */
+    /* position: static;
+    top: 200px;
+    left: 200px; */
+}
+
+.relative{
+    /* aafno thau xod daina tara left rihgt up down garna milxa */
+    background-color: aquamarine;
+    /* position: relative;
+    top: 200px;
+    left: 200px; */
+}
+
+.absolute{
+    /* aafno thau xod xa ra left right up down garna milxa */
+    background-color: #274ee8;
+    /* position: absolute; */
+
+    /* z-index le mathi tala garna milxa layer jasto */
+    /* z-index: -1; */
+
+    /* top: 200px;
+    left: 200px; */
+}
+
+.fixed{
+    /* jun thau ma rakhda tayahi basxa xa 
+    scroll garda ni tayahi hunxa */
+    background-color: #e8e327;
+    /* position: fixed;
+    top: 0px;
+    right: 0px; */
+}
+
+.sticky{
+    /* euta thau ma fix garxa tyahi thau ma basxa
+    scroll garda hunxa ani thau ma pugesi rukxa */
+    background-color: #e833e8;
+    /* position: sticky;
+    top: 0px; */
+    /* top: 100px; */ 
+}

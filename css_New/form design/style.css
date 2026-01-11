@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: red;
+}
+
+.container{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-form{
+    border: 2px solid black;
+    padding: 30px;
+    height: 40%;
+    width: 17%;
+    border-radius: 10px;
+    border: 2px solid white;
+    opacity: 0.7;
+
+}
+
+h1{
+text-align: center;
+}
+
+.input-placeholder input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.wrapper{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.register{
+    display: flex;
+    justify-content: center;    
+}
+
+#register{
+    font-weight: bold;
+    color: white;
+}

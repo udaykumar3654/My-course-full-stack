@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #main_box{
+            background: #9c4848;
+            width: 350px;
+            height: 500px;
+            border: 5px solid rgb(37, 211, 31);
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: start;
+    }
+
+    .box1{
+        background: red;
+        flex: 1;
+        height: 50px;
+    }
+
+    .box2{
+        background: blue;
+        flex: 2;
+        height: 50px;
+        order: -1;
+    }
+
+    .box3{
+
+        /* the statement which is commented is used on 
+        img tag */
+
+        /* 
+        background-image: url("image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; */
+        background: green;
+        flex: 1;
+        height: 50px;
+        order: 2;
+    }
+
+    .box4{
+        background: yellow;
+    }
+    .box5{
+        background: purple;
+        order: 1;
+    }
+
+    </style>
+
+    <h1>flexbox in css</h1>
+    <div id="main_box">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+        </div>
+    </div>
+</body>
+</html>

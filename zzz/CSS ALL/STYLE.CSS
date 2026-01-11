@@ -1,0 +1,31 @@
+/* 1. for external css = it is most powerful and scalable 
+method. it involves writing the css in a seprate .css
+file and link with the html folders. */
+
+
+body{
+    background: blue;
+}
+
+h1{
+    height: 100px;
+    background: #8e8282;
+    color: tomato;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(25, 50, 75);
+}
+
+
+/* rgb = red green blue and higher value is 255 and lower 000. */
+
+li{
+    /* color: rgb(50, 250, 0); */
+    color: hsl(319, 43%, 32%);
+}
