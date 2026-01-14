@@ -22,15 +22,27 @@ Authentication & CRUD operations
 Project-based learning
 
 🛠️ Tech Stack
+
 🔹 Frontend
 
 HTML5
 
 CSS3
 
-JavaScript (ES6+)
+JavaScript 
 
-React.js / Bootstrap (if used)
+TypeScript
+
+React.js 
+
+Next.js
+
+Tailwind css
+
+Npm
+
+Vite
+
 
 🔹 Backend
 
@@ -48,52 +60,52 @@ Git & GitHub
 
 VS Code
 
-Postman
-
 npm
 
 📂 Repository Structure
-full-stack-course/
-│
-├── frontend/
-│   ├── html/
-│   ├── css/
-│   ├── javascript/
-│   └── react/
-│
-├── backend/
-│   ├── node/
-│   ├── express/
-│   └── api/
-│
-├── database/
-│   ├── mongodb/
-│   └── mysql/
-│
-├── projects/
-│   ├── project-1/
-│   ├── project-2/
-│   └── final-project/
-│
-├── README.md
-└── package.json
 
-▶️ How to Run the Project
+full-stack-course/
+
+│                                                                                               
+├── frontend/                                                                                   
+│   ├── html/                                                                                   
+│   ├── css/                                                                                    
+│   ├── javascript/                                                                             
+│   └── react/                                                                                  
+│                                                                                               
+├── backend/                                                                                    
+│   ├── node/                                                                                   
+│   ├── express/                                                                                
+│   └── api/                                                                                    
+│                                                                                               
+├── database/                                                                                   
+│   ├── mongodb/                                                                                
+│   └── mysql/                                                                                  
+│                                                                                               
+├── projects/                                                                                   
+│   ├── project-1/                                                                              
+│   ├── project-2/                                                                              
+│   └── final-project/                                                                          
+│                                                                                               
+├── README.md                                                                                   
+└── package.json                                                                                
+                                                                                                
+▶️ How to Run the Project                                                                      
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/full-stack-course.git
 
 2️⃣ Install Dependencies
-npm install
+**npm install**
 
 3️⃣ Run Backend Server
-npm start
+**npm start**
 
 4️⃣ Open Frontend
+**Open index.html**
 
-Open index.html
 or run React:
-
-npm run dev
+**npm run dev**
 
 🎯 Projects Included
 
