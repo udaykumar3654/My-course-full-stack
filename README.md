@@ -131,5 +131,7 @@ This project is licensed for educational purposes only.
 Your Name
 The Kartik Kumar
 Full Stack Developer
+
 📍 Nepal
+
 📧 your- kartikkumar3654@gmail.com
