@@ -1,0 +1,5 @@
+export {default as Logo} from "./assets/images/logo.png"
+export {default as HeroImg} from "./assets/images/Hero.jpg"
+// export {default as Logo} from "./assets/images/logo.png"
+// export {default as Logo} from "./assets/images/logo.png"
+// export {default as Logo} from "./assets/images/logo.png"
