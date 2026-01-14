@@ -128,10 +128,10 @@ This project is licensed for educational purposes only.
 
 🙌 Author
 
-Your Name
-The Kartik Kumar
+**The Kartik Kumar**
+
 Full Stack Developer
 
-📍 Nepal
+📍 Janakpurdham,Dhanusha,Nepal
 
 📧 your- kartikkumar3654@gmail.com
