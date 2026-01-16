@@ -8,8 +8,8 @@ type ResponsiveMenuProps = {
 const ResponsiveMenu = ({ showMenu }: ResponsiveMenuProps) => {
   return (
     <div
-      className={`${showMenu ? "left-0" : "left-[-100%]"}
-    fixed top-0 flex-col w-[75%] dark: bg-gray-900 h-screen px-8 pt-18 gap-3
+      className={`${showMenu ? "left-0" : "left-[-100%]" }
+    fixed top-0 z-0 flex-col w-[75%] dark: bg-gray-900 h-screen px-8 pt-18 gap-3
     `}
     >
       <div>

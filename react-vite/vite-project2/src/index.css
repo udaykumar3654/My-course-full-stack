@@ -4,6 +4,7 @@
 
 @theme{
     --color-primary: #ebc034;
+    --color-secondary: #a742f5;
 }
 
 @layer components{

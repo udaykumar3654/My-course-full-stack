@@ -11,7 +11,7 @@ const Navbar = () => {
   const [showMenu, setMenu] = useState(false);
   const handleMenuToggle = () => setMenu(!showMenu);
   return (
-    <div className="bg-gray-300 dark:bg-black dark:text-white">
+    <div className="bg-gray-300 dark:bg-black dark:text-white hover:bg-red-500 relative z-1">
       <div className="container">
         <div className="flex justify-between items-center">
           <div className=" hidden md:flex items-center gap-3">
